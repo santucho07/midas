@@ -1,0 +1,89 @@
+.mutan__section__container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: calc(100vw - 179px);
+  margin: 0 90px;
+}
+
+.mutant__container__card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 56px;
+  /* height: 550px; */
+  overflow: scroll;
+  overflow-x: hidden;
+  margin-top: 42px;
+}
+.mutan__section__container h6 {
+  display: flex;
+  position: relative;
+  font-size: var(--font-size-title);
+  font-weight: 600;
+  line-height: var(--font-line-height-title);
+  font-stretch: 150%;
+}
+
+.mutant__card {
+  height: 212px;
+  width: 212px;
+  border-radius: 0px;
+  border: 1px solid black;
+}
+
+.mutant__ul__title {
+  display: flex;
+  list-style: none;
+}
+
+.mutant__ul__title li {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.mutant__ul__title li:nth-child(1) {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 51px;
+  font-weight: 600;
+  height: 51px;
+  border: 1px solid black;
+}
+
+.mutant__ul__title li:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 600;
+  width: 100%;
+  color: #6c6c6c;
+}
+
+.mutant__ul__content {
+  margin: 8px 5px;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mutant__ul__content li {
+  list-style: none;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: center;
+  color: #315df6;
+}
+
+.mutant__ul__footer {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0px 8px;
+}
